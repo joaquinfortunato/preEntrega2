@@ -1,0 +1,62 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3 {
+    text-align: center;
+    color: #7a7a7a;
+}
+.container, .contain-buttons, .contain-listado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.item {
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 15px;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+#cart {
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+#cart ul {
+    list-style: none;
+    padding: 10px;
+}
+#cart ul li {
+    margin-bottom: 5px;
+    color: #333;
+}
+button {
+    background-color: #a31919;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #d11f1f;
+}
